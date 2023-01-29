@@ -1,0 +1,26 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "express-option-chain"
+version = "1.0.5"
+description = "This library uses Kite Connect APIs to fetch the option chain of all the derivatives present in Indian stock market. It supports all the exchanges including NFO, MCX, CDS and BCD. It also provides API to fetch the option chain of an asset."
+readme = "README.md"
+authors = [{ name = "Prajwal Ramakrishna", email = "prajwaldr9@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["option-chain", "kite-option-chain", "nse-option-chain", "nse-options", "india-equity-options"]
+dependencies = [
+    "requests", "kiteconnect", "redis"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/pramakrishn/express-option-chain"

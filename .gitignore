@@ -1,0 +1,14 @@
+src/*.json
+.idea/
+
+*.rdb
+*.prof
+
+dist/
+*/express_option_chain.egg-info
+
+tests/*
+todo.md
+
+src/expressoptionchain/jsons/*
+src/expressoptionchain/examples/runner.py
