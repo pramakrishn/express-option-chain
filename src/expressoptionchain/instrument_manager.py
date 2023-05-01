@@ -230,6 +230,9 @@ class KiteInstrumentFetcher:
                     continue
 
                 expiry_to_token_info_map = helper.get_hash_value(self.db, 'option_token_info', trading_symbol)
+                if not expiry_to_token_info_map:
+                    log.error(f'Trading symbol {trading_symbol} not found or is removed from fno')
+                    continue
                 if expiry not in expiry_to_token_info_map:
                     raise KiteInstrumentManagerException(
                         f'Expiry {expiry} token info not found for symbol {trading_symbol}')

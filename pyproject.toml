@@ -6,8 +6,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "express-option-chain"
-version = "1.0.5"
-description = "This library uses Kite Connect APIs to fetch the option chain of all the derivatives present in Indian stock market. It supports all the exchanges including NFO, MCX, CDS and BCD. It also provides API to fetch the option chain of an asset."
+version = "1.0.6"
+description = "This library utilizes Kite Connect APIs to fetch the option chain of all the derivatives traded in the Indian stock market."
 readme = "README.md"
 authors = [{ name = "Prajwal Ramakrishna", email = "prajwaldr9@gmail.com" }]
 license = { file = "LICENSE" }

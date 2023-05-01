@@ -515,5 +515,5 @@ OptionChainFetcher class provides an interface to fetch the quotes stored in the
 
 ## Contact
 
-Feel free to contact me if you need any support regarding the usage of this library. If there are bugs, please create an
+Feel free to [contact me](https://github.com/pramakrishn) if you need any support regarding the usage of this library. If there are bugs, please create an
 issue in GitHub.  
